@@ -1,0 +1,45 @@
+/* For Tablets */
+
+@media all and (max-width: 1000px) { 
+    .lesson {
+      width: 27%;
+      margin-bottom: 50px;
+    }
+    .lessons {
+      margin-left: 15%;
+    }
+    .heading h4 {
+      font-size: 25px;
+    }
+}
+
+/* For Smartphones */
+
+@media all and (max-width: 670px) {
+  .lesson-wrapper {
+    padding-bottom: 450px;
+  }
+  .lesson {
+    width: 100%;
+  }
+  
+  .lesson-icon {
+    width: 80%;
+    padding-bottom: 150px;
+    margin-top: -150px;
+    margin-left: -5px;
+  } 
+
+  .lesson-icon p {
+    font-size: 15px;
+    margin-top: -125px;
+  }
+
+  .text-contents {
+    width: 60%;
+    margin-top: -135px;
+    margin-left: -80px;
+  }
+  
+
+}
